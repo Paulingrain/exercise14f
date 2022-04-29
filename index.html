@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        .image-div{
+           background-color: rgb(39, 38, 38);
+           position: fixed;
+           top: 0;
+           left: 0;
+           bottom: 0;
+           padding-top: 10px;
+           padding-left: 3px;
+           padding-right: 5px;
+
+        }
+        .oliver-image{
+        width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius:25px;
+    margin-right: 10px;
+    margin-left: 10px;
+     margin-bottom: 3px;}
+
+    .header{
+        background-color: rgb(90, 89, 89);
+           position: fixed;
+           top: 0;
+           left: 70px;
+           width: 150px;
+           bottom: 0;
+           padding-top: 10px;
+           padding-left: 15px;
+           padding-right: 10px; 
+           color: rgb(223, 203, 203); 
+    }
+    .info-div{
+        display: flex;
+        flex-direction: row;
+       justify-content: space-between;
+       align-items: center;
+       margin-bottom: 10px;
+       font-size: 14px;
+    }
+    .new{
+        margin-bottom: 15px;
+    }
+
+    </style>
+</head>
+<body style="height: 3000px;">
+    
+    <div class="image-div">
+        <div><img class="oliver-image" src="oliver.jpg"></div>
+        <div><img class="oliver-image"  src="mimi.jpg"></div>
+        <div><img class="oliver-image"  src="rex.jpg"></div>
+    </div>
+
+    <div class="header">
+        <div class="info-div">
+            <div class="info">INFO</div>
+            <DIV class="plussign">+</DIV>
+        </div>
+        <DIV class="new"># new-videos</DIV>
+        <div class="new"># updates</div>
+        <div class="new"># faq</div>
+    </div>
+</body>
+</html>
